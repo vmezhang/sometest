@@ -23,8 +23,6 @@
 #include <QDebug>
 
 QString readShell(QString cmd);
-// cmd解析函数
-// QString getCmdResult(QString cmd);
 
 QString readShell(QString cmd)
 {
