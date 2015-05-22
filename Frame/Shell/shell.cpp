@@ -56,19 +56,8 @@ QString ShellEdit::runCommand(const QString &cmd)
         return QString("%1:命令不存在").arg(cmd);
     }
 */
-
-
-    QFile file("cmd.txt");
-    file.open(QIODevice::ReadOnly);
-    QString qcmd;
-    qcmd = file.readAll();
-    qDebug(qcmd.toLatin1().data());
-    return qcmd;
-
-
-
     // 添加自定义系统调用
-    // return readShell(cmd);
+    return readShell(cmd);
 
 }
 
