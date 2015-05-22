@@ -53,3 +53,5 @@ SOURCES += \
     filesystem/ctrl_close.c \
     filesystem/blockbitmap.c
 RESOURCES += source.qrc
+
+OTHER_FILES +=

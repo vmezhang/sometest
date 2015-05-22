@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     // 窗口大小
     w.resize(800, 550);
     // 窗口名称
-    w.setWindowTitle("osPlatefrom");
+    w.setWindowTitle("OSEP");
     // 窗体在屏幕中间
     w.move((QApplication::desktop()->width() - w.width()) >> 1,
                 (QApplication::desktop()->height() - w.height()) >> 1);

@@ -42,20 +42,23 @@ void ShellEdit::resizeEvent(QResizeEvent *e)
 
 QString ShellEdit::runCommand(const QString &cmd)
 {
-
-   // 调用系统中的命令
-    // if (cmd != "ls" && cmd != "ps") {
-     //   return QString("%1:命令暂时无法解析").arg(cmd);
-    //}
-
-    /*QByteArray temp = cmd.toLatin1();
-    char *cmd2 = temp.data();
+    /*
+   //调用系统中的命令
+    QString cmd2;
+    cmd2 = cmd + ">cmd.txt";
     int ret;
-    ret = system(strcat(cmd2, ">cmd.txt"));
-    if (ret) {
+    ret = system(cmd2.toLatin1().data());
+    qDebug("%d", ret);
+    if (ret != 0) {
         return QString("%1:命令不存在").arg(cmd);
     }
-*/
+    QString qcmd;
+    QFile cmdfile("cmd.txt");
+    cmdfile.open(QFile::ReadWrite);
+    qcmd = cmdfile.readAll();
+    return qcmd;
+    */
+
     // 添加自定义系统调用
     return readShell(cmd);
 

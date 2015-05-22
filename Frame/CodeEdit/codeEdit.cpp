@@ -188,27 +188,15 @@ void CodePad::setup()
 //![open files]
 int CodePad::open(const QString &fileName)
 {
-  /* if (!fileName.isEmpty()) {
-        int file_edit;
-      if (file_edit = lfopen(fileName.toLatin1().data(), O_RDWR|O_CREAT)) {
+   if (!fileName.isEmpty()) {
+        MyQtFile file_edit(fileName);
+        if (!file_edit.myfOpen()) {
             QMessageBox::warning(this, tr("CodeEdit"),
                                  tr("Cannot read file %1")
                                  .arg(fileName));
             return -2;
-        }*/
-   if (!fileName.isEmpty()) {
-        MyQtFile file_edit(fileName);
-        file_edit.myfOpen();
-      //  if (file_edit.myfOpen()) {
-      //      QMessageBox::warning(this, tr("CodeEdit"),
-        //                         tr("Cannot read file %1")
-        //                         .arg(fileName));
-          //  return -2;
-       // }
+        }
 
-
-     //lfread(file_edit, encodedData.data(), 4096);
-     //lfclose(file_edit);
      QString inputEdit;
      file_edit.myfRead(inputEdit);
      file_edit.myfClose();
@@ -232,28 +220,18 @@ int CodePad::saveAs(const QString &fileName)
 {
     if (!fileName.isEmpty()) {
         MyQtFile file_edit(fileName);
-        file_edit.myfOpen();
-        // if (file_edit.myfOpen()) {
-           // QMessageBox::warning(this, tr("CodeEdit"),
-             //                    tr("Cannot read file %1")
-               //                  .arg(fileName));
-            //return -2;
-       // }
-        /* int file_edit;
-        if (file_edit = lfopen(fileName.toLatin1().data(), O_RDWR|O_CREAT)) {
-            QMessageBox::warning(this, tr("CodeEdit"),
+        if (!file_edit.myfOpen()) {
+           QMessageBox::warning(this, tr("CodeEdit"),
                                  tr("Cannot read file %1")
                                  .arg(fileName));
             return -2;
-        }*/
+       }
 
         // 使用陈露纹的文件系统时用缓冲区进行读写
         QString out;
         out = this->toPlainText() + "\0";
         file_edit.myfwrite(out);
         file_edit.myfClose();
-        //lfwrite(file_edit, out.toLatin1().data(), 4095);
-        //lfclose(file_edit);
         this->fileName = fileName;
         this->tabName = fileName;
         this->isChanged = false;

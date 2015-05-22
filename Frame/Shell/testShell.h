@@ -34,6 +34,8 @@ QString readShell(QString cmd)
     QString fileName;
     // 传递程序原文件
     QString pcfile;
+    // 运行命令
+    QString pcrun;
 
     // 解析cmd
     // outMessage = getCmdResult(cmd);
@@ -42,8 +44,10 @@ QString readShell(QString cmd)
     }
     // 保存源文件名之后传给编译运行程序的脚本之中
     pcfile = cmd.mid(3);
-    qDebug(pcfile.toLatin1().data());
-    // system("sh xxx.sh");
+    pcrun = "sh ../lp_sh/run.sh ";
+    pcrun = pcrun + pcfile;
+    qDebug(pcrun.toLatin1().data());
+    // system(pcrun);
 
     // 程序执行的结果以及编译信息均保存在/tmp/result.txt中
     // 每次都去完毕我会将其结果清空保证文件

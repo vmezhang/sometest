@@ -71,7 +71,7 @@ void MainWindow::createAction()
 
     // 动作关闭所有终端
     closeAllShellAction = new QAction(tr("&关闭所有终端"), this);
-    closeAllShellAction->setShortcut(tr("Ctrl+D"));
+    closeAllShellAction->setShortcut(tr("Ctrl+W"));
     connect(closeAllShellAction, SIGNAL(triggered()), this, SLOT(closeAllShell()));
 
     // 动作退出
