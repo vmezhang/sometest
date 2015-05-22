@@ -18,20 +18,34 @@
 #ifndef TESTSHELL_H
 #define TESTSHELL_H
 
+#include "shell.h"
+#include <QFile>
+
 QString readShell(QString cmd);
-void printp(QString pMessage);
+// cmd解析函数
+// QString getCmdResult(QString cmd);
 
 QString readShell(QString cmd)
 {
-    Qstring qcmd;
+    QString outMessage;
+    QString fileName;
     // 解析cmd
-    return qcmd;
-}
+    // outMessage = getCmdResult(cmd);
+    // 命令的返回结果可以是一个文件名,将读取文件的内容传给outMessage
+    // 或者直接将运行结果返回成字符串,将字符串传给outMessage
+    // 以下为测试时设置的文件名
+    fileName = "cmd.txt";
+    // 如果编译程序过程中或者运行程序有输出将会返回
+    // 一个保存运行结果的信息的文件路径
+    // 通过读取文件中的内容获得返回结果
 
-// 屏幕打印函数
-void printp(char *pMessage)
-{
-    appendPlainText(pMessage);
+    QFile outputFile(fileName);
+    outputFile.open(QFile::ReadWrite);
+    outMessage = outputFile.readAll();
+    // 运行结束后将文件内容清空
+    outputFile.resize(0);
+
+    return outMessage;
 }
 
 #endif  // TESTSHELL_H

@@ -14,8 +14,7 @@
 // 
 // =====================================================================================
 
-#include "shell.h"
-// #include "testShell.h"
+#include "testShell.h"
 #include <QLineEdit>
 #include <QTextBlock>
 #include <QDebug>
