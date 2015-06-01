@@ -42,10 +42,10 @@ QString readShell(QString cmd)
     }
     // 保存源文件名之后传给编译运行程序的脚本之中
     pcfile = cmd.mid(3);
-    pcrun = "sh ../lp_sh/run.sh ";
+    pcrun = "sh lp_sh/run.sh ";
     pcrun = pcrun + pcfile;
     qDebug(pcrun.toLatin1().data());
-    // system(pcrun);
+    system(pcrun.toLatin1().data());
 
     // 程序执行的结果以及编译信息均保存在/tmp/result.txt中
     // 每次都去完毕我会将其结果清空保证文件

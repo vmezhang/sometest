@@ -1,7 +1,7 @@
 #!/bin/bash
 
-COMPILE=pl
-RUN=pa
+COMPILE=/home/zhangrui/test/ast2bc_linux/splos_parser/pcl
+RUN=/home/zhangrui/test/process7.0/main
 
 if [ $# -ne 1 ]
 then
@@ -9,9 +9,9 @@ then
 else
 	 $COMPILE $1
 	 if [ $? -ne 255 ]
-	 then
+     then
 		# .pc into .bc
-		byte_file=`echo $1 | sed "s/\.pc/\.bc/"`	 
+		byte_file=`echo $1 | sed "s/\.pc/\.sbc/"`	 
 		#echo $byte_file
 	    $RUN $byte_file
 	 else
