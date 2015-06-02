@@ -1,4 +1,61 @@
-             total       used       free     shared    buffers     cached
-Mem:          2005       1860        144          0         18        889
--/+ buffers/cache:        952       1053
-Swap:         3813         46       3767
+总用量 8572
+-rw-rw-r-- 1 zhangrui zhangrui    9156  6月  2 15:44 blockbitmap.o
+-rw-rw-r-- 1 zhangrui zhangrui       0  6月  2 15:44 cmd.txt
+drwxrwxr-x 2 zhangrui zhangrui    4096  5月 22 19:58 CodeEdit
+-rw-rw-r-- 1 zhangrui zhangrui  621836  6月  2 15:43 codeEdit.o
+-rw-rw-r-- 1 zhangrui zhangrui  662400  6月  2 15:44 codeWindow.o
+-rw-rw-r-- 1 zhangrui zhangrui     116  6月  2 15:02 config.ini
+-rw-rw-r-- 1 zhangrui zhangrui    2796  6月  2 15:44 ctrl_close.o
+-rw-rw-r-- 1 zhangrui zhangrui    4508  6月  2 15:44 ctrl_delect.o
+-rw-rw-r-- 1 zhangrui zhangrui    3676  6月  2 15:44 ctrl_directory.o
+-rw-rw-r-- 1 zhangrui zhangrui    2740  6月  2 15:44 ctrl_lseek.o
+-rw-rw-r-- 1 zhangrui zhangrui    5396  6月  2 15:44 ctrl_open.o
+-rw-rw-r-- 1 zhangrui zhangrui    4572  6月  2 15:44 ctrl_read.o
+-rw-rw-r-- 1 zhangrui zhangrui    5400  6月  2 15:44 ctrl_write.o
+-rw-rw-r-- 1 zhangrui zhangrui    8668  6月  2 15:44 dev.o
+-rw-rw-r-- 1 zhangrui zhangrui    8408  6月  2 15:44 fileinterface.o
+-rw-rw-r-- 1 zhangrui zhangrui    4352  6月  2 15:44 file.o
+drwxrwxr-x 3 zhangrui zhangrui    4096  6月  1 12:25 filesystem
+-rwxrwxr-x 1 zhangrui zhangrui 2656527  6月  2 15:44 Frame
+-rw-rw-r-- 1 zhangrui zhangrui    1607  5月 22 17:40 Frame.pro
+-rw-rw-r-- 1 zhangrui zhangrui   27069  6月  2 15:42 Frame.pro.user
+-rw-rw-r-- 1 zhangrui zhangrui    6574  5月 22 17:50 FrameWindow.cpp
+-rw-rw-r-- 1 zhangrui zhangrui    2335  5月 22 17:37 FrameWindow.h
+-rw-rw-r-- 1 zhangrui zhangrui  504844  6月  2 15:43 FrameWindow.o
+-rw-rw-r-- 1 zhangrui zhangrui  522404  6月  2 15:44 highlight.o
+-rw-rw-r-- 1 zhangrui zhangrui    8860  6月  2 15:44 init.o
+drwxrwxr-x 2 zhangrui zhangrui    4096  6月  2 15:04 lp_sh
+-rw-rw-r-- 1 zhangrui zhangrui    1319  5月 22 17:09 main.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  484492  6月  2 15:43 main.o
+-rw-rw-r-- 1 zhangrui zhangrui   17005  5月 22 17:50 Makefile
+-rw-rw-r-- 1 zhangrui zhangrui   12596  6月  2 15:44 mksfs.o
+-rw-rw-r-- 1 zhangrui zhangrui    3261  6月  2 15:44 moc_codeEdit.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  169520  6月  2 15:44 moc_codeEdit.o
+-rw-rw-r-- 1 zhangrui zhangrui    6241  6月  2 15:44 moc_codeWindow.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  177372  6月  2 15:44 moc_codeWindow.o
+-rw-rw-r-- 1 zhangrui zhangrui    3464  6月  2 15:44 moc_FrameWindow.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  163464  6月  2 15:44 moc_FrameWindow.o
+-rw-rw-r-- 1 zhangrui zhangrui    2400  6月  2 15:44 moc_highlight.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  359312  6月  2 15:44 moc_highlight.o
+-rw-rw-r-- 1 zhangrui zhangrui    3085  6月  2 15:44 moc_monitor.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  150016  6月  2 15:44 moc_monitor.o
+-rw-rw-r-- 1 zhangrui zhangrui    2419  5月 22 16:15 moc_openFileName.cpp
+-rw-rw-r-- 1 zhangrui zhangrui    2788  6月  2 15:44 moc_shell.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  161020  6月  2 15:44 moc_shell.o
+drwxrwxr-x 2 zhangrui zhangrui    4096  5月 22 16:15 monitor
+-rw-rw-r-- 1 zhangrui zhangrui  346012  6月  2 15:44 monitor.o
+-rw-rw-r-- 1 zhangrui zhangrui     728  5月 22 16:15 MyQtFile.cpp
+-rw-rw-r-- 1 zhangrui zhangrui     372  5月 22 16:15 MyQtFile.h
+-rw-rw-r-- 1 zhangrui zhangrui  127028  6月  2 15:44 MyQtFile.o
+-rw-rw-r-- 1 zhangrui zhangrui  911339  6月  2 15:44 qrc_source.cpp
+-rw-rw-r-- 1 zhangrui zhangrui  193752  6月  2 15:44 qrc_source.o
+drwxrwxr-x 5 zhangrui zhangrui    4096  5月 22 16:15 res
+-rw-rw-r-- 1 zhangrui zhangrui   13248  6月  2 15:44 sfs_inode.o
+-rw-rw-r-- 1 zhangrui zhangrui    5948  6月  2 15:44 sfs.o
+drwxrwxr-x 3 zhangrui zhangrui    4096  6月  2 15:42 Shell
+-rw-rw-r-- 1 zhangrui zhangrui  194920  6月  2 15:44 shell.o
+-rw-rw-r-- 1 zhangrui zhangrui     870  5月 22 16:15 source.qrc
+-rw-rw-r-- 1 zhangrui zhangrui    6038  5月 22 16:15 tags
+drwx------ 4 zhangrui zhangrui    4096  6月  1 15:23 test
+-rw-rw-r-- 1 zhangrui zhangrui   16445  6月  2 15:43 ui_codeWindow.h
+-rw-rw-r-- 1 zhangrui zhangrui   14880  6月  2 15:43 ui_monitor.h

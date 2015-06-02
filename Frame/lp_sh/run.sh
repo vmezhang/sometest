@@ -1,7 +1,7 @@
 #!/bin/bash
 
-COMPILE=/home/zhangrui/test/ast2bc_linux/splos_parser/pcl
-RUN=/home/zhangrui/test/process7.0/main
+COMPILE=/home/zhangrui/sometest/Frame/test/ast2bc_linux/splos_parser/pcl
+RUN=/home/zhangrui/sometest/Frame/test/process7.0/main
 
 if [ $# -ne 1 ]
 then

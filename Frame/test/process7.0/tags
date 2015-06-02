@@ -1,0 +1,357 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArrayRef	zijiemajiesi.h	/^}ArrayRef;$/;"	t	typeref:struct:array_node
+BYTE_CODE_MAX	Simulate.h	30;"	d
+ByteCode	zijiemajiesi.h	/^}ByteCode;$/;"	t	typeref:struct:byte_codes
+CURRENTTHREAD_H_	CurrentThread.h	18;"	d
+CurrentThread	CurrentThread.h	/^namespace CurrentThread {$/;"	n	namespace:ospf
+E_BAD_PROC	error.h	6;"	d
+E_FAULT	error.h	10;"	d
+E_INVAL	error.h	7;"	d
+E_INVAL_ELF	error.h	12;"	d
+E_KILLED	error.h	13;"	d
+E_NO_FREE_PROC	error.h	9;"	d
+E_NO_MEM	error.h	8;"	d
+E_PANIC	error.h	14;"	d
+E_SWAP_FAULT	error.h	11;"	d
+E_UNSPECIFIED	error.h	5;"	d
+FCFS_dequeue	sched_FIFO.cpp	/^static void FCFS_dequeue(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+FCFS_enqueue	sched_FIFO.cpp	/^static void FCFS_enqueue(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+FCFS_init	sched_FIFO.cpp	/^static void FCFS_init(struct runQueue *rq) $/;"	f	file:
+FCFS_pick_next	sched_FIFO.cpp	/^static struct ProcStruct *FCFS_pick_next(struct runQueue *rq) $/;"	f	file:
+FCFS_proc_tick	sched_FIFO.cpp	/^static void FCFS_proc_tick(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+FRAME_NUM	zijiemajiesi.h	11;"	d
+HeapArea	zijiemajiesi.h	/^typedef heap_area *HeapArea;$/;"	t
+LV_TABLE	zijiemajiesi.h	10;"	d
+LinkVMstack	zijiemajiesi.h	/^typedef LinkVMstackNode *LinkVMstack;$/;"	t
+LinkVMstackNode	zijiemajiesi.h	/^}LinkVMstackNode;$/;"	t	typeref:struct:vmstack_node
+MAXERROR	error.h	17;"	d
+MAX_PID	proc.h	39;"	d
+MAX_PROCESS	proc.h	38;"	d
+MAX_TIME_SLICE	sched.h	7;"	d
+NULL	defs.h	7;"	d
+OP_STACK	zijiemajiesi.h	9;"	d
+OpStack	zijiemajiesi.h	/^    operate_stack *OpStack;   \/\/������ջ$/;"	m	struct:stackframe_node
+PCB	zijiemajiesi.h	/^stuct ProcStruct *PCB;$/;"	v
+PROC_NAME_LEN	proc.h	37;"	d
+PROC_RUNNABLE	proc.h	/^	PROC_RUNNABLE,           \/\/就绪状态$/;"	e	enum:procState
+PROC_RUNNING	proc.h	/^	PROC_RUNNING,            \/\/运行状态$/;"	e	enum:procState
+PROC_SLEEPING	proc.h	/^	PROC_SLEEPING,           \/\/睡眠状态$/;"	e	enum:procState
+PROC_UNINIT	proc.h	/^	PROC_UNINIT = 0,         \/\/没有初始化$/;"	e	enum:procState
+PROC_ZOMBLE	proc.h	/^	PROC_ZOMBLE,             \/\/死亡或者等待父进程释放资源$/;"	e	enum:procState
+Pexit	proc.cpp	/^void Pexit(struct ProcStruct *proc)$/;"	f
+Pfork	proc.cpp	/^void Pfork(char *createProcAdress, int ppid)$/;"	f
+ProcStruct	proc.h	/^struct ProcStruct$/;"	s
+Pwait	proc.cpp	/^void Pwait(struct ProcStruct *proc, int nextByteCode)$/;"	f
+ROUNDDOWN	defs.h	44;"	d
+ROUNDUP	defs.h	50;"	d
+RR_dequeue	sched_RR.cpp	/^static void RR_dequeue(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+RR_enqueue	sched_RR.cpp	/^static void RR_enqueue(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+RR_init	sched_RR.cpp	/^static void RR_init(struct runQueue *rq) {$/;"	f	file:
+RR_pick_next	sched_RR.cpp	/^static struct ProcStruct *RR_pick_next(struct runQueue *rq) $/;"	f	file:
+RR_proc_tick	sched_RR.cpp	/^static void RR_proc_tick(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+RR_sched_class	sched_RR.cpp	/^struct schedClass RR_sched_class = {$/;"	v	typeref:struct:schedClass
+SIMULATE_H_	Simulate.h	18;"	d
+StackFrame	zijiemajiesi.h	/^    stack_frame *StackFrame;   \/\/ջ֡$/;"	m	struct:vmstack_node
+VMstack	Simulate.cpp	/^LinkVMstack VMstack[6];$/;"	m	namespace:ospf	file:
+WT_INTERRUPTED	proc.h	94;"	d
+ZIJIEMAJIESHI_ZIJIEMA_H	zijiemajiesi.h	6;"	d
+_PROCESS_PROC_H_	proc.h	20;"	d
+_USE_GNU	Simulate.h	31;"	d
+_VMstack	cpu_init.h	/^LinkVMstack _VMstack[max_thread_num];$/;"	v
+__CPU_INIT_H__	cpu_init.h	2;"	d
+__HAVE_ARCH_MEMCPY	x86.h	281;"	d
+__HAVE_ARCH_MEMMOVE	x86.h	262;"	d
+__HAVE_ARCH_MEMSET	x86.h	248;"	d
+__HAVE_ARCH_STRCMP	x86.h	208;"	d
+__HAVE_ARCH_STRCPY	x86.h	232;"	d
+__KERN_DEBUG_ASSERT_H__	assert.h	2;"	d
+__KERN_SCHEDULE_SCHED_FIFO_H__	sched_FIFO.h	2;"	d
+__KERN_SCHEDULE_SCHED_RR_H__	sched_RR.h	2;"	d
+__KERN_SCHEDULE_SCHED_STRIDE_H__	sched_nice.h	2;"	d
+__LIBS_DEFS_H__	defs.h	2;"	d
+__LIBS_ERROR_H__	error.h	2;"	d
+__LIBS_LIST_H__	list.h	2;"	d
+__LIBS_STDIO_H__	stdio.h	2;"	d
+__LIBS_STRING_H__	string.h	2;"	d
+__LIBS_X86_H__	x86.h	2;"	d
+__SCHED_H__	sched.h	2;"	d
+__TYPES_H__	types.h	19;"	d
+__WAIT_QUEUEU_H__	wait_queue.h	20;"	d
+__always_inline	defs.h	10;"	d
+__list_add	list.h	/^__list_add(list_entry_t *elm, list_entry_t *prev, list_entry_t *next) {$/;"	f
+__list_del	list.h	/^__list_del(list_entry_t *prev, list_entry_t *next) {$/;"	f
+__memcpy	x86.h	/^__memcpy(void *dst, const void *src, size_t n) {$/;"	f
+__memmove	x86.h	/^__memmove(void *dst, const void *src, size_t n) {$/;"	f
+__memset	x86.h	/^__memset(void *s, char c, size_t n) {$/;"	f
+__noinline	defs.h	11;"	d
+__noreturn	defs.h	12;"	d
+__strcmp	x86.h	/^__strcmp(const char *s1, const char *s2) {$/;"	f
+__strcpy	x86.h	/^__strcpy(char *dst, const char *src) {$/;"	f
+_context	proc.h	/^struct _context$/;"	s
+_goto	Simulate.cpp	/^int _goto(int branch, int index2, int m)$/;"	f	namespace:ospf
+_lock	Simulate.cpp	/^pthread_mutex_t _lock;  $/;"	m	namespace:ospf	file:
+_return	Simulate.cpp	/^int _return(int index1, int index2, int m)$/;"	f	namespace:ospf
+addRunEqueue	proc.cpp	/^void addRunEqueue()$/;"	f
+addRunQueue	sched.cpp	/^void addRunQueue()$/;"	f
+addWaitQueue	wait_queue.cpp	/^void addWaitQueue(struct waitQueue *wq, struct ProcStruct *proc) $/;"	f
+add_task	cpu_init.cpp	/^int add_task(struct ProcStruct *proc)$/;"	f
+add_timer	sched.cpp	/^void add_timer(ltimer_t *timer)$/;"	f
+allocPid	proc.cpp	/^static pid_t allocPid(void)$/;"	f	file:
+allocProcStruct	proc.cpp	/^struct ProcStruct *allocProcStruct(void)$/;"	f
+aload	Simulate.cpp	/^    int aload(int index, int index2, int m)$/;"	f	namespace:ospf
+arg1	zijiemajiesi.h	/^    int arg1;$/;"	m	struct:byte_codes
+arg2	zijiemajiesi.h	/^    int arg2;$/;"	m	struct:byte_codes
+array_data	zijiemajiesi.h	/^    int *array_data;   \/\/����ṹ$/;"	m	struct:array_node
+array_node	zijiemajiesi.h	/^typedef struct array_node$/;"	s
+arrayref	zijiemajiesi.h	/^    ArrayRef *arrayref;$/;"	m	struct:heap_node
+assert	assert.h	15;"	d
+astore	Simulate.cpp	/^    int astore(int index, int index2, int m)$/;"	f	namespace:ospf
+bool	defs.h	/^typedef int bool;$/;"	t
+bool	types.h	/^typedef int bool;$/;"	t
+breakpoint	x86.h	/^breakpoint(void) {$/;"	f
+byteCodeEndAdress	proc.h	/^	int byteCodeEndAdress;               \/\/字节码结束地址$/;"	m	struct:ProcStruct
+byteCodeStartAdress	proc.h	/^    int byteCodeStartAdress;             \/\/字节码开始地址$/;"	m	struct:ProcStruct
+byte_code	cpu_init.h	/^ByteCode byte_code[4]={{0x01,100,1},{0x02,0,2},{0x03,0,3},{0x04,0,4}};$/;"	v
+byte_code1	main.cpp	/^ByteCode byte_code1[4]={{0x01,100,1},{0x02,0,2},{0x03,0,3},{0x04,0,4}};$/;"	v
+byte_codes	zijiemajiesi.h	/^typedef struct byte_codes$/;"	s
+chToInt	proc.cpp	/^int chToInt(char ch)$/;"	f
+cli	x86.h	/^cli(void) {$/;"	f
+code	cpu_init.h	/^struct ByteCode code[];$/;"	v	typeref:struct:ByteCode
+code	zijiemajiesi.h	/^    int code;$/;"	m	struct:byte_codes
+container_of	list.h	162;"	d
+context	proc.h	/^struct context$/;"	s
+contextInfo	proc.h	/^	struct context contextInfo;           \/\/进程切换的上下文信息$/;"	m	struct:ProcStruct	typeref:struct:ProcStruct::context
+cpuSchedProc	proc.cpp	/^void cpuSchedProc( )$/;"	f
+cpu_init	cpu_init.cpp	/^int cpu_init()$/;"	f
+cpu_state	cpu_init.h	/^int cpu_state=4;$/;"	v
+createProcess	proc.cpp	/^void createProcess(int byteStart, int byteEnd)$/;"	f
+current	proc.cpp	/^struct ProcStruct *current = NULL;$/;"	v	typeref:struct:ProcStruct
+default_sched_class	sched_FIFO.cpp	/^struct schedClass default_sched_class = {$/;"	v	typeref:struct:schedClass
+delWaitQueue	wait_queue.cpp	/^void delWaitQueue(struct waitQueue *wq, struct ProcStruct *proc) $/;"	f
+del_timer	sched.cpp	/^void del_timer(ltimer_t *timer)$/;"	f
+dequeue	sched.h	/^    void (*dequeue)(struct runQueue *rq, struct ProcStruct *proc);$/;"	m	struct:schedClass
+do_div	x86.h	6;"	d
+dup	Simulate.cpp	/^int dup(int index1, int index2,int m)$/;"	f	namespace:ospf
+ebp	proc.h	/^	uint32_t ebp;$/;"	m	struct:context
+ebx	proc.h	/^	uint32_t ebx;$/;"	m	struct:context
+ecx	proc.h	/^	uint32_t ecx;$/;"	m	struct:context
+edi	proc.h	/^	uint32_t edi;$/;"	m	struct:context
+edx	proc.h	/^	uint32_t edx;$/;"	m	struct:context
+eip	proc.h	/^	uint32_t eip;$/;"	m	struct:context
+element	proc.h	/^    int element[OP_STACK];$/;"	m	struct:_context
+element	zijiemajiesi.h	/^    int element[OP_STACK];$/;"	m	struct:operatestack_node
+enqueue	sched.h	/^    void (*enqueue)(struct runQueue *rq, struct ProcStruct *proc);$/;"	m	struct:schedClass
+esi	proc.h	/^	uint32_t esi;$/;"	m	struct:context
+esp	proc.h	/^	uint32_t esp;$/;"	m	struct:context
+expires	sched.h	/^    unsigned int expires;       \/\/the expire time$/;"	m	struct:__anon1
+freePid	proc.cpp	/^static void freePid(pid_t pid)$/;"	f	file:
+fs_struct	proc.h	/^	struct fs_struct *fs_struct;          \/\/文件系统信息$/;"	m	struct:ProcStruct	typeref:struct:ProcStruct::fs_struct
+getProcName	proc.cpp	/^char *getProcName(struct ProcStruct *proc)$/;"	f
+glb_pid_map	proc.cpp	/^static uint32_t glb_pid_map[MAX_PID\/32];$/;"	v	file:
+heap	cpu_init.h	/^HeapArea heap;   \/\/初始化堆$/;"	v
+heap_area	zijiemajiesi.h	/^}heap_area;$/;"	t	typeref:struct:heap_node
+heap_node	zijiemajiesi.h	/^typedef struct heap_node$/;"	s
+i2c	Simulate.cpp	/^int i2c(int index1, int index2, int m)$/;"	f	namespace:ospf
+iadd	Simulate.cpp	/^int iadd(int index1, int index2, int m)$/;"	f	namespace:ospf
+iaload	Simulate.cpp	/^int iaload(int index1, int index2, int m)$/;"	f	namespace:ospf
+iastore	Simulate.cpp	/^int iastore(int index1, int index2, int m)$/;"	f	namespace:ospf
+idiv	Simulate.cpp	/^int idiv(int index1, int index2, int m)$/;"	f	namespace:ospf
+idleproc	proc.cpp	/^struct ProcStruct *idleproc = NULL;$/;"	v	typeref:struct:ProcStruct
+if_icmpeq	Simulate.cpp	/^int if_icmpeq(int branch, int index2, int m)$/;"	f	namespace:ospf
+if_icmpge	Simulate.cpp	/^int if_icmpge(int branch, int index2, int m)$/;"	f	namespace:ospf
+if_icmple	Simulate.cpp	/^int if_icmple(int branch, int index2, int m)$/;"	f	namespace:ospf
+if_icmplt	Simulate.cpp	/^int if_icmplt(int branch, int index2, int m)$/;"	f	namespace:ospf
+if_icmpne	Simulate.cpp	/^int if_icmpne(int branch, int index2, int m)$/;"	f	namespace:ospf
+if_icmppg	Simulate.cpp	/^int if_icmppg(int branch, int index2, int m)$/;"	f	namespace:ospf
+iload	Simulate.cpp	/^    int iload(int index, int index2, int m)$/;"	f	namespace:ospf
+imul	Simulate.cpp	/^int imul(int index1, int index2, int m)$/;"	f	namespace:ospf
+inb	x86.h	/^inb(uint16_t port) {$/;"	f
+init	sched.h	/^    void (*init)(struct runQueue *rq);$/;"	m	struct:schedClass
+initProcList	proc.cpp	/^void initProcList()$/;"	f
+insl	x86.h	/^insl(uint32_t port, void *addr, int cnt) {$/;"	f
+int16_t	defs.h	/^typedef short int16_t;$/;"	t
+int16_t	types.h	/^typedef short              int16_t;$/;"	t
+int32_t	defs.h	/^typedef int int32_t;$/;"	t
+int32_t	types.h	/^typedef int                int32_t;$/;"	t
+int64_t	defs.h	/^typedef long long int64_t;$/;"	t
+int64_t	types.h	/^typedef long long          int64_t;$/;"	t
+interpAddToRunQueue	proc.cpp	/^void interpAddToRunQueue(struct ProcStruct *proc)$/;"	f
+intptr_t	defs.h	/^typedef int32_t intptr_t;$/;"	t
+intptr_t	types.h	/^typedef int32_t     intptr_t;$/;"	t
+invlpg	x86.h	/^invlpg(void *addr) {$/;"	f
+invokeinterface	Simulate.cpp	/^int invokeinterface(int index1, int index2, int m)$/;"	f	namespace:ospf
+ior	Simulate.cpp	/^int ior(int index1, int index2, int m)$/;"	f	namespace:ospf
+ipush	Simulate.cpp	/^    int ipush(int value, int index2, int m)$/;"	f	namespace:ospf
+irem	Simulate.cpp	/^int irem(int index1, int index2, int m)$/;"	f	namespace:ospf
+ireturn	Simulate.cpp	/^int ireturn(int value, int index2, int m)$/;"	f	namespace:ospf
+ishl	Simulate.cpp	/^int ishl(int index1, int index2, int m)$/;"	f	namespace:ospf
+ishr	Simulate.cpp	/^int ishr(int index1, int index2, int m)$/;"	f	namespace:ospf
+istore	Simulate.cpp	/^    int istore(int index, int index2, int m)$/;"	f	namespace:ospf
+isub	Simulate.cpp	/^int isub(int index1, int index2, int m)$/;"	f	namespace:ospf
+lcr0	x86.h	/^lcr0(uintptr_t cr0) {$/;"	f
+lcr3	x86.h	/^lcr3(uintptr_t cr3) {$/;"	f
+le2proc	proc.h	96;"	d
+le2timer	sched.h	18;"	d
+lidt	x86.h	/^lidt(struct pseudodesc *pd) {$/;"	f
+list_add	list.h	/^list_add(list_entry_t *listelm, list_entry_t *elm) {$/;"	f
+list_add_after	list.h	/^list_add_after(list_entry_t *listelm, list_entry_t *elm) {$/;"	f
+list_add_before	list.h	/^list_add_before(list_entry_t *listelm, list_entry_t *elm) {$/;"	f
+list_del	list.h	/^list_del(list_entry_t *listelm) {$/;"	f
+list_del_init	list.h	/^list_del_init(list_entry_t *listelm) {$/;"	f
+list_empty	list.h	/^list_empty(list_entry_t *list) {$/;"	f
+list_entry	list.h	/^struct list_entry {$/;"	s
+list_entry	list.h	166;"	d
+list_entry_t	list.h	/^typedef struct list_entry list_entry_t;$/;"	t	typeref:struct:list_entry
+list_for_each	list.h	169;"	d
+list_init	list.h	/^list_init(list_entry_t *elm) {$/;"	f
+list_next	list.h	/^list_next(list_entry_t *listelm) {$/;"	f
+list_prev	list.h	/^list_prev(list_entry_t *listelm) {$/;"	f
+lmemset	string.cpp	/^lmemset(void *s, char c, size_t n) {$/;"	f
+localvariable_table	zijiemajiesi.h	/^    int localvariable_table[LV_TABLE];   \/\/�ֲ�������$/;"	m	struct:heap_node
+lstrchr	string.cpp	/^lstrchr(const char *s, char c) {$/;"	f
+ltimer_t	sched.h	/^} ltimer_t;$/;"	t	typeref:struct:__anon1
+ltr	x86.h	/^ltr(uint16_t sel) {$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+max_thread_num	cpu_init.h	4;"	d
+memcmp	string.cpp	/^memcmp(const void *v1, const void *v2, size_t n) {$/;"	f
+memcpy	string.cpp	/^memcpy(void *dst, const void *src, size_t n) {$/;"	f
+memmove	string.cpp	/^memmove(void *dst, const void *src, size_t n) {$/;"	f
+mm	proc.h	/^	struct mm_struct *mm;                 \/\/内存管理的信息$/;"	m	struct:ProcStruct	typeref:struct:ProcStruct::mm_struct
+name	CurrentThread.h	/^        inline const char *name()$/;"	f	namespace:ospf::CurrentThread
+name	sched.h	/^    const char *name;$/;"	m	struct:schedClass
+nameProc	proc.h	/^	char nameProc[PROC_NAME_LEN + 1];      \/\/进程名$/;"	m	struct:ProcStruct
+needResched	proc.h	/^	volatile bool needResched;             \/\/是否需要释放CPU$/;"	m	struct:ProcStruct
+newarray	Simulate.cpp	/^    int newarray(int index, int index2, int m)$/;"	f	namespace:ospf
+next	list.h	/^    struct list_entry *prev, *next;$/;"	m	struct:list_entry	typeref:struct:list_entry::
+next	zijiemajiesi.h	/^    struct array_node *next;$/;"	m	struct:array_node	typeref:struct:array_node::array_node
+next	zijiemajiesi.h	/^    struct heap_node *next;$/;"	m	struct:heap_node	typeref:struct:heap_node::heap_node
+next	zijiemajiesi.h	/^    struct stackframe_node *next;$/;"	m	struct:stackframe_node	typeref:struct:stackframe_node::stackframe_node
+next	zijiemajiesi.h	/^    struct vmstack_node *next;$/;"	m	struct:vmstack_node	typeref:struct:vmstack_node::vmstack_node
+nextByteAdress	proc.h	/^	int nextByteAdress;                    \/\/下一条字节码的位置$/;"	m	struct:ProcStruct
+nice	proc.h	/^	int nice;                              \/\/进程优先级$/;"	m	struct:ProcStruct
+nice_dequeue	sched_nice.cpp	/^static void nice_dequeue(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+nice_enqueue	sched_nice.cpp	/^static void nice_enqueue(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+nice_init	sched_nice.cpp	/^static void nice_init(struct runQueue *rq) $/;"	f	file:
+nice_pick_next	sched_nice.cpp	/^static struct ProcStruct *nice_pick_next(struct runQueue *rq) $/;"	f	file:
+nice_proc_tick	sched_nice.cpp	/^static void nice_proc_tick(struct runQueue *rq, struct ProcStruct *proc) $/;"	f	file:
+nice_sched_class	sched_nice.cpp	/^struct schedClass nice_sched_class = {$/;"	v	typeref:struct:schedClass
+nr_process	proc.cpp	/^static int nr_process = 0;  $/;"	v	file:
+offsetof	list.h	160;"	d
+operate_stack	zijiemajiesi.h	/^}operate_stack;$/;"	t	typeref:struct:operatestack_node
+operatestack_node	zijiemajiesi.h	/^typedef struct operatestack_node$/;"	s
+ospf	CurrentThread.h	/^namespace ospf {$/;"	n
+ospf	Simulate.cpp	/^namespace ospf {$/;"	n	file:
+outb	x86.h	/^outb(uint16_t port, uint8_t data) {$/;"	f
+outsl	x86.h	/^outsl(uint32_t port, const void *addr, int cnt) {$/;"	f
+outw	x86.h	/^outw(uint16_t port, uint16_t data) {$/;"	f
+panic	assert.h	12;"	d
+parallel	Simulate.cpp	/^int parallel(int index1, int index2, int m)$/;"	f	namespace:ospf
+parallelProcess	proc.cpp	/^void parallelProcess(int byteStart, int byteEnd, int ppid)$/;"	f
+parallelSched	proc.cpp	/^void parallelSched()$/;"	f
+parent	proc.h	/^	struct ProcStruct *parent;             \/\/父进程$/;"	m	struct:ProcStruct	typeref:struct:ProcStruct::ProcStruct
+parentPid	proc.h	/^	int parentPid;                         \/\/父进程的pid$/;"	m	struct:ProcStruct
+pc	zijiemajiesi.h	/^    int pc;$/;"	m	struct:stackframe_node
+pcb_pc	proc.h	/^    int pcb_pc;   \/\/任务中断时的pc$/;"	m	struct:ProcStruct
+pcb_stack	proc.h	/^	struct _context *pcb_stack;   \/\/任务中断时的stack$/;"	m	struct:ProcStruct	typeref:struct:ProcStruct::_context
+pd_base	x86.h	/^    uintptr_t pd_base;      \/\/ Base address$/;"	m	struct:pseudodesc
+pd_lim	x86.h	/^    uint16_t pd_lim;        \/\/ Limit$/;"	m	struct:pseudodesc
+pickNext	sched.h	/^    struct ProcStruct *(*pickNext)(struct runQueue *rq);$/;"	m	struct:schedClass	typeref:struct:schedClass::pickNext
+pid	proc.h	/^	int pid;                               \/\/进程ID$/;"	m	struct:ProcStruct
+pid_t	types.h	/^typedef int                pid_t;$/;"	t
+pop	Simulate.cpp	/^int pop(int index1, int index2, int m)$/;"	f	namespace:ospf
+ppn_t	defs.h	/^typedef size_t ppn_t;$/;"	t
+ppn_t	types.h	/^typedef size_t      ppn_t;$/;"	t
+prev	list.h	/^    struct list_entry *prev, *next;$/;"	m	struct:list_entry	typeref:struct:list_entry::list_entry
+proc	sched.h	/^    struct ProcStruct *proc;    \/\/the proc wait in this timer. If the expire time is end, then this proc will be scheduled$/;"	m	struct:__anon1	typeref:struct:__anon1::ProcStruct
+procFinished	proc.cpp	/^void procFinished(struct ProcStruct *proc)$/;"	f
+procInit	proc.cpp	/^void procInit(void)$/;"	f
+procList	proc.h	/^list_entry_t *procList;$/;"	v
+procState	proc.h	/^enum procState$/;"	g
+procTick	sched.h	/^    void (*procTick)(struct runQueue *rq, struct ProcStruct *proc);$/;"	m	struct:schedClass
+proc_num	sched.h	/^    unsigned int proc_num;              \/\/内部的进程总数$/;"	m	struct:runQueue
+pseudodesc	x86.h	/^struct pseudodesc {$/;"	s
+push_stack	Simulate.cpp	/^void push_stack(operate_stack *_stack, int _pc)$/;"	f	namespace:ospf
+rcr0	x86.h	/^rcr0(void) {$/;"	f
+rcr1	x86.h	/^rcr1(void) {$/;"	f
+rcr2	x86.h	/^rcr2(void) {$/;"	f
+rcr3	x86.h	/^rcr3(void) {$/;"	f
+read_dr	x86.h	/^read_dr(unsigned regnum) {$/;"	f
+read_ebp	x86.h	/^read_ebp(void) {$/;"	f
+read_eflags	x86.h	/^read_eflags(void) {$/;"	f
+ready_task	cpu_init.h	/^pthread_cond_t  ready_task;$/;"	v
+ret	zijiemajiesi.h	/^    int ret;   \/\/�����С$/;"	m	struct:array_node
+rq	proc.h	/^	struct runQueue *rq;                  \/\/进程包含在运行队列$/;"	m	struct:ProcStruct	typeref:struct:ProcStruct::runQueue
+rq	sched.h	/^struct runQueue *rq;$/;"	v	typeref:struct:runQueue
+runLink	proc.h	/^	list_entry_t runLink;                 \/\/进程列表$/;"	m	struct:ProcStruct
+runQueue	sched.h	/^struct runQueue $/;"	s
+run_list	sched.h	/^    list_entry_t run_list;              \/\/运行队列的哨兵$/;"	m	struct:runQueue
+run_timer_list	sched.cpp	/^void run_timer_list(void) $/;"	f
+runs	proc.h	/^	int runs;                              \/\/进程运行时间$/;"	m	struct:ProcStruct
+schedClass	sched.h	/^struct schedClass $/;"	s
+schedClassDequeue	sched.cpp	/^inline void schedClassDequeue(struct ProcStruct *proc) $/;"	f
+schedClassEnqueue	sched.cpp	/^inline void schedClassEnqueue(struct ProcStruct *proc) $/;"	f
+schedClassPickNext	sched.cpp	/^inline struct ProcStruct *schedClassPickNext() $/;"	f
+schedClassProcTick	sched.cpp	/^void schedClassProcTick(struct ProcStruct *proc)$/;"	f
+schedInit	sched.cpp	/^void schedInit() $/;"	f
+sched_class	sched.cpp	/^static struct schedClass *sched_class;$/;"	v	typeref:struct:schedClass	file:
+schedule	sched.cpp	/^void schedule() $/;"	f
+setProcName	proc.cpp	/^char *setProcName(struct ProcStruct *proc, const char *name)$/;"	f
+sim_func	Simulate.cpp	/^static sim_func_t sim_func[BYTE_CODE_MAX + 1] = {$/;"	m	namespace:ospf	file:
+sim_func_t	Simulate.cpp	/^typedef int32_t (*sim_func_t)(int, int, int);$/;"	t	namespace:ospf	file:
+simulate	Simulate.cpp	/^bool simulate(LinkVMstack _VMstack, ByteCode *bytecode, int mm)$/;"	f	namespace:ospf
+size_t	defs.h	/^typedef uintptr_t size_t;$/;"	t
+size_t	types.h	/^typedef uintptr_t   size_t;$/;"	t
+stack_frame	zijiemajiesi.h	/^}stack_frame;$/;"	t	typeref:struct:stackframe_node
+stackframe_node	zijiemajiesi.h	/^typedef struct  stackframe_node$/;"	s
+state	proc.h	/^	enum procState state;                  \/\/进程状态$/;"	m	struct:ProcStruct	typeref:enum:ProcStruct::procState
+static_assert	assert.h	23;"	d
+sti	x86.h	/^sti(void) {$/;"	f
+strcmp	string.cpp	/^strcmp(const char *s1, const char *s2) {$/;"	f
+strcpy	string.cpp	/^strcpy(char *dst, const char *src) {$/;"	f
+strfind	string.cpp	/^strfind(const char *s, char c) {$/;"	f
+strlen	string.cpp	/^strlen(const char *s) {$/;"	f
+strncmp	string.cpp	/^strncmp(const char *s1, const char *s2, size_t n) {$/;"	f
+strncpy	string.cpp	/^strncpy(char *dst, const char *src, size_t len) {$/;"	f
+strnlen	string.cpp	/^strnlen(const char *s, size_t len) {$/;"	f
+strtol	string.cpp	/^strtol(const char *s, char **endptr, int base) {$/;"	f
+swap	Simulate.cpp	/^int swap(int index1, int index2, int m)$/;"	f	namespace:ospf
+task_lock	cpu_init.h	/^pthread_mutex_t task_lock;$/;"	v
+task_num	cpu_init.h	/^int task_num=0;$/;"	v
+thread_link	cpu_init.h	/^pthread_t *thread_link;$/;"	v
+thread_routine	cpu_init.cpp	/^int thread_routine(int *args)$/;"	f
+tid	CurrentThread.h	/^        inline int tid()$/;"	f	namespace:ospf::CurrentThread
+tidString	CurrentThread.h	/^        inline const char *tidString()$/;"	f	namespace:ospf::CurrentThread
+timeSlice	proc.h	/^	int timeSlice;                         \/\/进程剩余的时间$/;"	m	struct:ProcStruct
+timer_init	sched.h	/^static inline ltimer_t *timer_init(ltimer_t *timer, struct ProcStruct *proc, int expires) $/;"	f
+timer_link	sched.h	/^    list_entry_t timer_link;    \/\/the timer list$/;"	m	struct:__anon1
+timer_list	sched.cpp	/^static list_entry_t timer_list;$/;"	v	file:
+to_struct	defs.h	65;"	d
+top	proc.h	/^    int top;$/;"	m	struct:_context
+top	zijiemajiesi.h	/^    int top;$/;"	m	struct:operatestack_node
+uint16_t	defs.h	/^typedef unsigned short uint16_t;$/;"	t
+uint16_t	types.h	/^typedef unsigned short     uint16_t;$/;"	t
+uint32_t	defs.h	/^typedef unsigned int uint32_t;$/;"	t
+uint32_t	types.h	/^typedef unsigned int       uint32_t;$/;"	t
+uint64_t	defs.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint64_t	types.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	defs.h	/^typedef unsigned char uint8_t;$/;"	t
+uint8_t	types.h	/^typedef unsigned char      uint8_t;$/;"	t
+uintptr_t	defs.h	/^typedef uint32_t uintptr_t;$/;"	t
+uintptr_t	types.h	/^typedef uint32_t    uintptr_t;$/;"	t
+vmstack_node	zijiemajiesi.h	/^typedef struct vmstack_node$/;"	s
+waitQueue	sched.h	/^struct waitQueue$/;"	s
+waitQueueInit	wait_queue.cpp	/^void waitQueueInit(struct waitQueue *wq) $/;"	f
+waitQueuePickNext	wait_queue.cpp	/^struct ProcStruct *waitQueuePickNext(struct waitQueue *wq) $/;"	f
+wait_list	sched.h	/^   list_entry_t wait_list;              \/\/等待队列$/;"	m	struct:waitQueue
+wait_num	sched.h	/^   unsigned int wait_num;               \/\/等待队列的进程数$/;"	m	struct:waitQueue
+wait_state	proc.h	/^	uint32_t wait_state;                   \/\/等待的状态$/;"	m	struct:ProcStruct
+wakeupProc	sched.cpp	/^void wakeupProc(struct ProcStruct *proc) $/;"	f
+warn	assert.h	9;"	d
+wq	sched.h	/^struct waitQueue *wq;$/;"	v	typeref:struct:waitQueue
+write_dr	x86.h	/^write_dr(unsigned regnum, uint32_t value) {$/;"	f
+write_eflags	x86.h	/^write_eflags(uint32_t eflags) {$/;"	f

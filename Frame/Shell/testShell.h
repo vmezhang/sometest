@@ -38,7 +38,19 @@ QString readShell(QString cmd)
     // 解析cmd
     // outMessage = getCmdResult(cmd);
     if (cmd.left(3) != "pl ") {
-        return "error!";
+        QString cmd2;
+        cmd2 = cmd + ">cmd.txt";
+        int ret;
+        ret = system(cmd2.toLatin1().data());
+        qDebug("%d", ret);
+        if (ret != 0) {
+            return QString("%1:命令不存在").arg(cmd);
+        }
+        QString qcmd;
+        QFile cmdfile("cmd.txt");
+        cmdfile.open(QFile::ReadWrite);
+        qcmd = cmdfile.readAll();
+        return qcmd;
     }
     // 保存源文件名之后传给编译运行程序的脚本之中
     pcfile = cmd.mid(3);

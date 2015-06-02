@@ -1,0 +1,5 @@
+<osep>
+	<cpu_num>4</cpu_num>
+	<proc_sched>default_sched_class</proc_sched>
+	<mem_alloc>***</mem_alloc>
+</osep>
